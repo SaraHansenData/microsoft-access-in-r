@@ -1,4 +1,4 @@
-# microsoft-access-in-r
+# Microsoft Access in R
 
 ## Background
 ### Microsoft Access is a useful relational database storage and management software used by many scientists and data professionals. While Access offers a user-friendly interface, sometimes it's better to interact with Access through a programming language to optimize reproducibility and readability. A programming language like R offers many ways to interact with your data that Access does not and is usually the best choice for analyses and visualizations.
