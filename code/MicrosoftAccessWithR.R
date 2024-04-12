@@ -1,7 +1,7 @@
 # Working with Microsoft Access data in R
 
 ## Sara Hansen, hanse2s
-## Modified April 11, 2024
+## Modified April 12, 2024
 
 library(tidyverse) # to write nice code
 library(odbc) # to check drivers
@@ -91,7 +91,7 @@ connection <- odbcConnectAccess2007(database)
 # Step 6: Write the database out into the blank Access database
 # Below function checks whether a table already exists and deletes it if yes,
 # then saves the table to Access
-# If the string length exceeds 255, the type is automatically set to "LONGTEXT",
+# If the string length is equal to or exceeds 255, the type is automatically set to "LONGTEXT",
 # otherwise it is "VARCHAR(255)" which is the default
 writeOut <- function(connection, x) {
   
