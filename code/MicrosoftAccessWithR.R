@@ -1,6 +1,5 @@
 # Working with Microsoft Access data in R
-
-## Sara Hansen, hanse2s
+## Sara Hansen, SaraHansenData
 ## Modified August 1, 2024
 
 library(tidyverse) # to write nice code
